@@ -53,6 +53,22 @@ body {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95vw;
+        padding: 8px;
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+    h3 { font-size: 1.1rem; }
+
+    p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}
+
 /* Navbar Container */
 .navbar-container {
     width: 100%;
