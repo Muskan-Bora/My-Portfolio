@@ -1,4 +1,4 @@
-🚀 My Portfolio - Muskan Bora - Full Stack Web Developer[https://muskan-bora.netlify.app/]
+🚀 My Portfolio - [Muskan Bora - Full Stack Web Developer](https://muskan-bora.netlify.app/)
 
 📌 About My Portfolio
 Welcome to my personal portfolio! 🎨🚀
@@ -16,6 +16,6 @@ Deployment: Netlify, GitHub
 ✅ Resume Download
 ✅ Contact Form
 
-🌐 Live Demo: Muskan Bora - Full Stack Web Developer[https://muskan-bora.netlify.app/]
+🌐 Live Demo: [Muskan Bora - Full Stack Web Developer](https://muskan-bora.netlify.app/)
 
 ⭐ Happy Coding! 🚀  
