@@ -250,12 +250,6 @@ body {
         padding: 5px 10px;
     }
 
-    /* Menu Icon (Hamburger) */
-    .menu-icon {
-        display: block; /* Show menu icon */
-        font-size: 28px;
-    }
-
     .nav-links {
         display: none;
         flex-direction: column;
