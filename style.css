@@ -287,6 +287,7 @@ body {
         top: 0px;
         font-size: 15px;
         z-index: 1001; /* Ensure it appears above other elements */
+        margin-left: 0px;
     }
 }
 
