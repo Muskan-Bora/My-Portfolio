@@ -282,10 +282,10 @@ body {
 
     /* Position the Dark Mode Toggle Properly */
     .dark-mode-toggle {
-        position: absolute;
+        position:relative;
         right: 0px;
         top: 0px;
-        font-size: 22px;
+        font-size: 15px;
         z-index: 1001; /* Ensure it appears above other elements */
     }
 }
