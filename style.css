@@ -239,10 +239,10 @@ body {
 @media screen and (max-width: 480px) {
 
     .navbar {
-        padding: 10px 20px; /* Reduce padding for smaller screens */
-        flex-direction: row;
+        padding: 20px; /* Reduce padding for smaller screens */
+        /* flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; */
     }
 
     .logo {
