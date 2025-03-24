@@ -285,7 +285,7 @@ body {
         position:relative;
         right: 0px;
         top: 0px;
-        font-size: 15px;
+        font-size: 24px;
         z-index: 1001; /* Ensure it appears above other elements */
         margin-right: 60px;
     }
