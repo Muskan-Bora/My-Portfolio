@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muskan Bora [Full Stack Developer]</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="container">
+    <!-- Navbar Start -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="navbar-container">
+            <nav class="navbar">
+                <a href="#home" class="nav-logo"><div class="logo">
+                    M B <i class="fa-solid fa-laptop-code"></i>
+                </div></a>
+
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i> <!-- FontAwesome Menu Icon -->
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <div class="dark-mode-toggle">
+                    <i id="theme-icon" class="fa-solid fa-moon"></i>
+                </div>
+            </nav>
+        </div>
+    </meta>
+    <!-- Navbar End -->
+
+    <!-- Welcome Message Start -->
+    <div id="home" class="welcome-container">
+        <div class="top-left">
+            <h2 id="clock" class="real-time"></h2>
+            <h3 id="greeting" class="greeting"></h3>
+        </div>
+        <div class="welcome-message">
+            <p class="welcome-title">
+                <span id="typing-text"></span><span class="welcome-highlight"></span>
+            </p>
+            <p class="Welcome-sub-title">"Crafting Modern & Scalable Web Experiences"</p>
+        </div>
+    </div>
+<!-- Welcome Message End -->
+    <!-- Welcome Message End -->
+
+    <!-- Landing Page Start -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1><span class="wave">👋</span>I'm <span class="highlight">Muskan Bora</span></h1>
+            <h2><b>"Full Stack Web Developer"</b></h2>
+
+            <p>
+                I'm a passionate Full Stack Web Developer skilled in <span class="highlight-desc-hero">Python, Django, ReactJS, JavaScript, & many more.</span>  
+                I specialize in building high-performance <span class="highlight-desc-hero">websites and dynamic web applications.</span>  
+                Turning ideas into <span class="highlight-desc-hero">interactive and user-friendly web solutions.</span> 
+                Strong in <span class="highlight-desc-hero">problem-solving and writing clean, efficient code.</span>
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://github.com/Muskan-Bora" class="btn primary"><i class="fa-brands fa-github"></i> View Source Code</a>
+                <a href="#" class="btn secondary"><i class="fa-regular fa-file-lines"></i> Get Resume</a>
+            </div> 
+        </div>
+
+        <div class="hero-image">
+            <img src="static/muskan1.png" alt="Profile Picture">
+        </div>
+    </section>
+    <!-- Landing Page End -->
+
+    <!-- About Me Start -->
+    <section id="about" class="about-me">
+        <div class="about-left animate-left">
+            <img src="static/aboutme.webp" alt="My Image">
+        </div>
+    
+        <div class="about-right animate-right">
+            <h2 class="about-title">Building Digital Experiences with Code <i class="fa-solid fa-code"></i></h2>
+            <p class="about-desc">
+                I'm a passionate Full Stack Web Developer with expertise in software development, specializing in
+                HTML5, CSS3, Django, and Python. Skilled in building, testing, and deploying dynamic web
+                applications, with a strong focus on scalable solutions with backend logic, crafting modern & responsive UI/UX design, 
+                and API integration ensuring smooth and efficient web experiences.
+            </p>
+            <p class="about-desc">
+                With hands-on experience in complete website deployment using Nginx & Gunicorn, I excel in debugging code,
+                solving complex problems, and optimizing performance. I love turning creative ideas into fully functional
+                web applications that deliver both great design and powerful functionality.
+            </p>
+        </div>
+    </section>
+    <!-- About Me End -->
+
+    <!-- Skills Start -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Tech Stack 🛠️</h2>
+    
+        <div class="skills-grid">
+            <div class="skills-box">
+                <h3>Frontend Development 🖥️</h3>
+                <p>
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" class="skill-image">
+                    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" class="skill-image">
+                    <img src="https://img.shields.io/badge/Tailwind_CSS-white?style=for-the-badge&logo=tailwind-css&logoColor=black" class="skill-image">
+                    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" class="skill-image"> 
+                </p>
+            </div>
+    
+            <div class="skills-box">
+                <h3>Backend & Database Management 🛡️</h3>
+                <p>
+                    <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/API%20Handlings-black?style=for-the-badge&logo=api&logoColor=black" class="skill-image">
+                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" class="skill-image">
+                </p>
+            </div>
+    
+            <div class="skills-box">
+                <h3>DevOps & Deployment 🚀</h3>
+                <!-- 009639 -->
+                <p>
+                    <img src="https://img.shields.io/badge/Nginx-0D4715?style=for-the-badge&logo=nginx&logoColor=009639" class="skill-image">
+                    <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/SSL%20Certificate-1F7D53?style=for-the-badge&logo=ssl&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" class="skill-image">
+                    <img src="https://img.shields.io/badge/Django%20Debug-000000?style=for-the-badge&logo=debug&logoColor=white" class="skill-image">
+                </p>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Skills End -->
+     
+    <!-- Peoject Start -->
+    
+        <section id="projects" class="projects">
+            <h2 class="section-title-projects">The Development Vault 🔥</h2>
+    
+            <div class="projects-grid">     
+                <!-- Project Card -->
+                <div class="project-card">
+                    <h3 class="project-title">Fluxwings: HR Digital Hub 🌐</h3>
+                    <img src="static/FluxwingsProject.png" alt="Project 1" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <a href="https://www.fluxwings.com/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        This is a fully functional HR consultancy website developed for Fluxwings Solutions LLP, built using Django
+                        for the backend and HTML5, CSS3 for the frontend. I successfully handled the complete development cycle,
+                        from designing responsive interfaces to backend logic implementation. Additionally, I managed the deployment
+                        process using Nginx and Gunicorn, configured the virtual server, handled DNS settings, and ensured smooth
+                        production. This project reflects my expertise as a Full Stack Web Developer with hands-on experience in both
+                        development and deployment.
+                    </p>
+                </div>
+    
+                <!-- Project Card -->
+                <div class="project-card">
+                    <h3 class="project-title">Xtra Careers: Career Booster 🚀</h3>
+                    <img src="static/XtracareersProject.png" alt="Project 2" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/API-Integration-blue?style=for-the-badge" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <a href="https://www.xtracareers.com/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        This is a professional career services platform, Xtra Careers, offering ATS-optimized resumes,
+                        LinkedIn branding, and mock interviews. I developed both frontend and backend using Django, JavaScript,
+                        and API integration. Implemented Razorpay payment gateway with smooth transaction handling, automated
+                        invoice generation and mailing through Python backend, and efficiently stored payment data in the Django
+                        database. Additionally, I managed the deployment on Nginx and Gunicorn, handling DNS settings and virtual
+                        server configurations, showcasing my expertise as a Full Stack Web Developer.
+                    </p>
+                </div>
+    
+                <!-- Project Card -->
+                <div class="project-card">
+                    <h3 class="project-title">Mayur Speaks: Portfolio Vibes 💻</h3>
+                    <img src="static/MayurspeaksProject.png" alt="Project 3" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <a href="https://www.mayurspeaks.com/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        This is a personal portfolio website built for the Executive Director of Fluxwings Solutions LLP, designed
+                        to showcase professional achievements and career milestones. I developed both the frontend and backend using
+                        Django and Python, ensuring seamless UI/UX with HTML5 and CSS3. Successfully deployed the website on Nginx
+                        and Gunicorn, managing DNS settings and virtual server configurations for smooth performance. This project
+                        highlights my full-stack development expertise and deployment skills as a professional web developer.
+                    </p>
+                </div>
+    
+                <!-- More Projects -->
+                <div class="project-card">
+                    <h3 class="project-title">CurrencyX: Real-Time Converter 💱</h3>
+                    <img src="static/CurrencyConvertorJS_Project.png" alt="Project 4" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" class="techstack-image">
+                        <img src="https://img.shields.io/badge/API-Integration-orange?style=for-the-badge" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <a href="https://muskan-bora.github.io/Currency-Convertor-App/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        Built a real-time currency converter web app using core JavaScript logic and API integration,
+                        allowing users to input any amount and get live exchange rates for all countries. Successfully
+                        fetched data from a third-party API to display accurate currency conversions. The project demonstrates
+                        my strong API handling skills and logical programming expertise, along with responsive UI development
+                        using HTML5 and CSS3. It is successfully deployed on GitHub, and you can check it live now & get the real-time
+                        user experience of currency converter app. 🚀
+                    </p>
+                </div>
+    
+                <div class="project-card">
+                    <h3 class="project-title">EduTrack: Student Management 📚</h3>
+                    <img src="static/StudentAppPythonProject.png" alt="Project 5" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <a href="https://student-app-l4hr.onrender.com/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        Developed a Student Management System using core Python logic and Django framework, allowing users to sign up,
+                        log in, and manage their profiles. The app features a dashboard for academic course tracking, grade
+                        calculation, and task scheduling with complete CRUD operations (Create, Read, Update, Delete).
+                        Built with HTML5, CSS3, JavaScript, and Django for the backend, this project showcases my expertise in
+                        backend logic, database management, and full-stack development. The app is successfully deployed on Render,
+                        and you can check it live now. 🚀
+
+                        <p class="Note-studentapp"><span class="Note-studentapp"><b>* NOTE:</b> Since it's deployed on Render, it might take a few seconds to load. Just wait for a minute, and
+                        you'll be able to enjoy using the Student Management app. ✅</span></p>
+                    </p>
+                </div>
+    
+                <div class="project-card">
+                    <h3 class="project-title">VerifyMail: Email Validator 📧</h3>
+                    <img src="static/email-validationPythonProject.jpg" alt="Project 6" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <!-- <a href="#" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a> -->
+                        <a href="https://github.com/Muskan-Bora/Email-Validation-Python" class="live-link" target="_blank">
+                            <i class="fa-brands fa-github"></i> View Source Code
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        Built a Python-based Email Validation System that verifies email addresses based on basic formatting rules.
+                        This program ensures proper length, special character placement, and domain structure, while preventing
+                        spaces and invalid symbols. The core logic is implemented using Python conditional statements (if-else),
+                        showcasing my strong backend logic and problem-solving skills. The code is successfully uploaded on GitHub,
+                        and you can check it now. ✅
+
+                        <p class="Note-studentapp"><span class="Note-studentapp"><b>* NOTE:</b> Since it's a Pure Python Logical Based Email Validation System  
+                        you can see view my source code for it.✅</span></p>
+                    </p>
+
+                </div>
+    
+                <div class="project-card">
+                    <h3 class="project-title">Taskify: Your Daily Tracker ✅</h3>
+                    <img src="static/todolistReactProject.png" alt="Project 7" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" class="techstack-image">
+                        <img src="https://img.shields.io/badge/React-Vite-09122C?style=for-the-badge&logo=react&logoColor=61DAFB" class="techstack-image">
+                    </div> 
+                    <div class="project-links">
+                        <a href="https://muskan-bora.github.io/To-Do-List-React-App/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        Developed a React-based To-Do List Application using React + Vite for fast performance and optimized build.
+                        This app allows users to add tasks, mark them as completed, and delete tasks anytime, helping in efficient
+                        task management. The responsive UI is built with CSS, showcasing my expertise in React component-based
+                        development and front-end design skills. The project is successfully deployed on Netlify and you can check it
+                        live now & enjoy using the app. ✅
+                    </p>
+                </div>
+    
+                <div class="project-card">
+                    <h3 class="project-title">CineFlix: Movie Mania 🎬</h3>
+                    <img src="static/IMDBCloneReactProject.png" alt="Project 8" class="project-image">
+                    <div class="tech-stack">
+                        <p>Tech Stack:</p>
+                        <img src="https://img.shields.io/badge/React-Vite-09122C?style=for-the-badge&logo=react&logoColor=61DAFB" class="techstack-image">
+                        <img src="https://img.shields.io/badge/Tailwind_CSS-white?style=for-the-badge&logo=tailwind-css&logoColor=black" class="techstack-image">
+                        <img src="https://img.shields.io/badge/API-Integration-blue?style=for-the-badge" class="techstack-image">
+                    </div>
+                    <div class="project-links">
+                        <a href="https://movies-club-react.netlify.app/" class="live-link" target="_blank">
+                            <i class="fa-solid fa-link"></i> Live
+                        </a>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <p class="project-desc">
+                        Built a Movie Discovery Web App - CineFlix (IMDB Clone) using React + Vite, Tailwind CSS, and TMDB API
+                        integration. This app allows users to browse trending movies, view detailed information, and manage their
+                        watchlist with add/remove functionality. The real-time data fetching with Axios and state management using
+                        React Hooks (useState, useEffect) highlights my expertise in API integration and responsive UI development.
+                        Successfully deployed on Netlify, check it live now. 🎬
+                    </p>
+                </div>
+    
+            </div>
+        </section>
+
+    <!-- Project End -->
+     
+    <!-- Testimonial Section Start -->
+
+    <section id="testimonial" class="testimonial-section">
+        <h2>Testimonial <i class="fa-regular fa-comments"></i></h2>
+        <div class="testimonial-card">
+            <p class="review-text">
+                "Muskan is an exceptional Full Stack Web Developer who has delivered high-performing, scalable applications for our
+                company. Her strong command over Django, Python, and API integration has enabled her to create seamless, interactive,
+                and efficient web solutions. She consistently demonstrates a sharp eye for responsive design and prioritizes
+                delivering an outstanding user experience.
+            </p>
+
+            <p class="review-text">
+                What truly sets Muskan apart are her diligence, unwavering commitment, and proactive attitude. When faced with
+                unfamiliar challenges, she doesnt hesitate — she researches, learns quickly, and approaches the task with
+                determination. Her ability to adapt and rise to the occasion has made a tangible difference to our platform's
+                performance and reliability.
+            </p>
+
+            <p class="review-text">
+                Muskan's resilience and dedication are invaluable traits that make her a strong asset to any team. I have no doubt
+                that she will excel and add value to any organization she chooses to be a part of."
+            </p>
+            <div class="company-info">
+                <h4> - Lt Col Mayur Ambastha (Retd.) </h4>
+                <span>Director, Fluxwings Solutions LLP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section End -->
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollUpBtn"><i class="fa-brands fa-space-awesome"></i></button>
+     
+    <!-- Achievements Section Start -->
+
+    <section id="achievements" class="achievements-section">
+        <h2 class="Achievement-Title">Milestones <i class="fa-solid fa-trophy"></i></h2>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <h3 class="Certificate-Title"><i class="fa-solid fa-star"></i> Python & Django Framework</h3>
+                <a href="static/Python_Django_Certificate.pdf" target="_blank" class="view-btn">View Certificate <i class="fa-solid fa-award"></i></a>
+            </div>
+            <div class="certificate-card">
+                <h3 class="Certificate-Title"><i class="fa-solid fa-star"></i> IBM Python for Web Development</h3>
+                <a href="static/IBM_Python_Certificate.pdf" target="_blank" class="view-btn">View Certificate <i class="fa-solid fa-award"></i></a>
+            </div>
+            <div class="certificate-card">
+                <h3 class="Certificate-Title"><i class="fa-solid fa-star"></i> Web Designing Basics</h3>
+                <a href="static/WebDesign_Certificate.pdf" target="_blank" class="view-btn">View Certificate <i class="fa-solid fa-award"></i></a>
+            </div>
+            <div class="certificate-card">
+                <h3 class="Certificate-Title"><i class="fa-solid fa-star"></i> Programming Foundation and SQL</h3>
+                <a href="static/sql_certificate.pdf" target="_blank" class="view-btn">View Certificate <i class="fa-solid fa-award"></i></a>
+            </div>
+            <div class="certificate-card center-card">
+                <h3 class="Certificate-Title"><i class="fa-solid fa-star"></i> React JS Certificate</h3>
+                <a href="static/react_certificate.pdf" target="_blank" class="view-btn">View Certificate <i class="fa-solid fa-award"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section End -->
+
+    <!-- Contact Section Start -->
+
+    <section class="contact-section" id="contact">
+        <h2 class="contact-title">Get in Touch <i class="fa-solid fa-paper-plane"></i></h2>
+    
+        <div class="contact-container">
+            <!-- Left Side -->
+            <div class="left-content" id="left-content">
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-location-dot"></i> Mumbai, India</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9970689833</p>
+                    <p><i class="fa-solid fa-envelope"></i> muskanbora2002@gmail.com</p>
+                </div>
+    
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/muskan-bora-054949229/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/muskaaan_xx/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/919970689833" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/Muskan-Bora" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+            </div>
+    
+            <!-- Right Side -->
+            <form class="contact-form" id="right-content" action="https://formsubmit.co/muskanbora2002@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="send-btn">Send Message 🚀</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section End --> 
+
+    <div class="footer">
+        <p class="m-0">&copy; <a class="footer" href="#">Muskan Bora | Full Stack Web Developer</a>. All Rights Reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
