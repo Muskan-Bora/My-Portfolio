@@ -56,7 +56,6 @@ body {
 @media screen and (max-width: 480px) {
     body {
         background-color: #f0e8f5; /* Slightly different shade for mobile (optional) */
-        overflow-x: hidden; /* Prevent horizontal scroll */
         width: 95vw; /* Make sure content doesn't touch edges */
         max-width: 100%;
     }
