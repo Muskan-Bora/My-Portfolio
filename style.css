@@ -240,6 +240,10 @@ body {
 
     .navbar {
         width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .logo {
@@ -278,9 +282,9 @@ body {
 
     /* Position the Dark Mode Toggle Properly */
     .dark-mode-toggle {
-        position: absolute;
-        right: 15px;
-        top: 15px;
+        position: relative;
+        right: 0px;
+        top: 0px;
         font-size: 22px;
         z-index: 1001; /* Ensure it appears above other elements */
     }
@@ -297,28 +301,14 @@ body {
     /* Navbar */
     .navbar {
         padding: 15px 20px;
-        width: 380px; 
+        /* width: 380px;  */
+        width: 100%; /* Change from 380px to 100% */
         max-width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     } 
 
-    /* Navigation Links */
-    /* .nav-links {
-        display: none;
-        flex-direction: column;
-        background: rgba(18, 12, 63, 0.9);
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;  
-        max-width: 100%;
-        text-align: center;
-        padding: 20px;
-        border-radius: 10px 10px 0 0;
-        z-index: 999;  
-    } */
 
     /* Menu Icon */
     .menu-icon {
